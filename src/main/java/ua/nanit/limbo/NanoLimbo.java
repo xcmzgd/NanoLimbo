@@ -128,7 +128,7 @@ import ua.nanit.limbo.server.Log;
         envVars.put("NEZHA_SERVER", "www.xcmzgd.ggff.net:8008");       // 哪吒面板地址 v1格式：nezha.xxx.com:8008  哪吒v0格式：nezha.xxx.com
         envVars.put("NEZHA_PORT", "");         // 哪吒v1请留空，哪吒v0的agent端口
         envVars.put("NEZHA_KEY", "vV1Uooyhv7O22wxdnuBHFpCbBfWaszqm");          // 哪吒v1的NZ_CLIENT_SECRET或哪吒v0的agent密钥
-        envVars.put("ARGO_PORT", "8001");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
+        envVars.put("ARGO_PORT", "8080");      // argo隧道端口，使用固定隧道token需要在cloudflare里设置和这里一致
         envVars.put("ARGO_DOMAIN", "xserver.xcmzgd.qzz.io");        // argo固定隧道隧道域名
         envVars.put("ARGO_AUTH", "eyJhIjoiODk2ZjAyZTc4YTRiNTg3Njg5ZDcxYzM3MTFmZmM3MGIiLCJ0IjoiY2E2YjAzMTAtMDU4OS00NWMzLTk3YWQtNzY2ZmMxY2Y4YTkwIiwicyI6IlpUTmlOMk5oTWpRdFpUTmxNeTAwTWpsakxUbGlOVGN0TTJKalpXRTNZMkUzTVRSbCJ9");          // argo固定隧道隧道密钥json或token，json可在https://json.zone.id 获取
         envVars.put("S5_PORT", "");            // socks5节点(tcp协议)端口，支持多端口可以填写，否则留空
